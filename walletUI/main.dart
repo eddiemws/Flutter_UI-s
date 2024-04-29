@@ -2,27 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/cards_page.dart';
 import 'screens/homepage.dart';
 
-void main() {
-  runApp(const WalletAppClone());
-}
 
-class WalletAppClone extends StatelessWidget {
-  static const String path = "lib/main.dart";
-
-  const WalletAppClone({super.key});
-  // This widget is the root of your application.
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const WalletApp(),
-      debugShowCheckedModeBanner: false,
-    );
-  }
-}
 
 class WalletApp extends StatefulWidget {
   const WalletApp({super.key});
