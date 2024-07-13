@@ -65,4 +65,6 @@ class _WalletAppState extends State<WalletApp> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: screens[selectedTab],
     );
+    }
+}
   
