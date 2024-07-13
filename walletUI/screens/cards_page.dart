@@ -372,7 +372,10 @@ class CardPage extends StatelessWidget {
                             )
                           ],
                         ),
-                       
+                        Switch(
+                          value: true,
+                          activeColor: const Color.fromRGBO(50, 172, 121, 1),
+                          onChanged: (_) {},
                         )
                       ],
                     ),
