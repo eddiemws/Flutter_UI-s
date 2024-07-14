@@ -60,7 +60,7 @@ class CardPage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    height: 16,
+                    height: 
                   ),
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 32),
