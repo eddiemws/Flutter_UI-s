@@ -15,7 +15,7 @@ class CardPage extends StatelessWidget {
                 color: Color.fromRGBO(243, 245, 248, 1),
                 borderRadius: BorderRadius.only(
                     topRight: Radius.circular(40),
-                   
+                    topLeft: Radius.circular(40))),
             child: SingleChildScrollView(
               controller: scrollController,
               child: Column(
