@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
                       "\$2589.90",
                       style: TextStyle(
                           color: Colors.white,
-                          fontSize: 37,
+                          fontSize: 36,
                           fontWeight: FontWeight.w700),
                     ),
                     Row(
