@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  
+  @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: MediaQuery.of(context).size.height,
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
                       "\$2589.90",
                       style: TextStyle(
                           color: Colors.white,
-                          fontSize: 36,
+                          fontSize: 37,
                           fontWeight: FontWeight.w700),
                     ),
                     Row(
