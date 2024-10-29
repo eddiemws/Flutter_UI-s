@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget 
+class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  @override
+  
   Widget build(BuildContext context) {
     return SizedBox(
       height: MediaQuery.of(context).size.height,
