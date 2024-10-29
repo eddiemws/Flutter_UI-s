@@ -55,9 +55,7 @@ class HomePage extends StatelessWidget {
                       fontSize: 16,
                       color: Colors.blue[100]),
                 ),
-                const SizedBox(
-                  height: 24,
-                ),
+                
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
