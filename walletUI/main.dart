@@ -54,7 +54,7 @@ class _WalletAppState extends State<WalletApp> {
             selectedTab = index;
           });
         },
- 
+        showUnselectedLabels: true,
         iconSize: 30,
       ),
       floatingActionButton: FloatingActionButton(
