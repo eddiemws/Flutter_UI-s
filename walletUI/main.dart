@@ -6,8 +6,7 @@ void main() {
   runApp(const WalletAppClone());
 }
 
-class WalletAppClone extends StatelessWidget {
-  static const String path = "lib/main.dart";
+
 
   const WalletAppClone({super.key});
   // This widget is the root of your application.
