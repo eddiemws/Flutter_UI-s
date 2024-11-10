@@ -33,10 +33,7 @@ class WalletApp extends StatefulWidget {
 }
 
 class _WalletAppState extends State<WalletApp> {
-  var screens = [
-    const HomePage(),
-    const CardPage(),
-  ];
+
 
   int selectedTab = 0;
 
