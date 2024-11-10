@@ -38,7 +38,7 @@ class _WalletAppState extends State<WalletApp> {
     const CardPage(),
   ];
 
-  int selectedTab = 0;
+
 
   @override
   Widget build(BuildContext context) {
