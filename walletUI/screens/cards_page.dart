@@ -87,7 +87,9 @@ class CardPage extends StatelessWidget {
                                 color: Colors.blue),
                           ),
                         ),
-                       
+                        const SizedBox(
+                          width: 16,
+                        ),
                         Container(
                           decoration: BoxDecoration(
                               color: Colors.white,
