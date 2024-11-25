@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                       children: <Widget>[
                         Icon(
                           Icons.notifications,
-                          color: Colors.lightBlue[100],
+                          color: Colors.lightBlue[10],
                         ),
                         const SizedBox(
                           width: 16,
