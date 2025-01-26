@@ -25,7 +25,7 @@ class WalletAppClone extends StatelessWidget {
 }
 
 class WalletApp extends StatefulWidget {
- 
+  const WalletApp({super.key});
 
   @override
   // ignore: library_private_types_in_public_api
